@@ -166,7 +166,6 @@ $("#task-form-modal .btn-primary").click(function() {
       text: taskText,
       date: taskDate
     });
-    tasks[status][index].text = text;
     saveTasks();
   }
 });
